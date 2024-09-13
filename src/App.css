@@ -1,38 +1,343 @@
-.App {
+body {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system;
+
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+}
+
+.section1 {
+  background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20201011/pngtree-deep-blue-sea-with-cute-water-animal-papercut-image_410789.jpg');
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  cursor: pointer;
+
+}
+
+.top {
+  font-size: 6rem;
+  cursor: pointer;
+  margin-top: 12rem;
+
+}
+
+.topic {
+  font-size: 5rem;
+  cursor: pointer;
+
+}
+
+.section2 {
+  color: black;
+  background-image: no-repeat;
+  flex-direction: column;
+}
+
+.section0 {
+  color: black;
+  height: 80vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.section0-heading {
+  align-items: center;
+  font-size: 45px;
+  font-family: 'Franklin Gothic Medium';
+  padding-left: 20px;
+  padding-right: 10px;
+  line-height: 1;
+}
+
+.section0-para {
+  font-size: 1rem;
+  padding: 0px 35px;
+  line-height: 1.7;
+}
+
+.button1 button {
+  border-radius: 4px;
+  text-align: center;
+  font-size: 1.5rem;
+  background-color: rgb(63, 18, 240);
+  color: white;
+  margin: 5px 9px;
+  padding: 7px 14px;
+  cursor: pointer;
+}
+
+.button1 button:hover {
+  color: black;
+  background-color: rgb(20, 206, 234);
+  transition: ease;
+}
+
+.section2-a {
+  display: flex;
+  margin: 1rem 4rem;
+  height: 18rem;
+}
+
+.section2-a-heading {
+  background-color: red;
+  margin-left: 2rem;
+  width: 28rem;
+  text-align: center;
+  font-size: 3rem;
+}
+.section2-a-heading span{
+  color: white;
+}
+.section2-a-para {
+  height: 8rem;
+  width: 55rem;
+  margin-left: 7rem;
+  font-size: 1.6rem;
+  line-height: 1;
+}
+
+.section2-a-links {
+  margin: 5rem 14%;
+  column-gap: 8px;
+}
+
+.section2-a-links-part1 {
+  display: flex;
+}
+
+.section2-a-links-part2 {
+  display: flex;
+}
+
+.section2-a-links-part3 {
+  display: flex;
+}
+
+.section2-a-links-part4 {
+  display: flex;
+}
+.section2-a-links-part4 .btn-16 img{
+  width: 35.2rem;
+  height: 24rem;
+}
+
+.section3-heading {
+  font-size: 2rem;
+  background-color: rgb(19, 200, 236);
+  padding: 6px 46%;
+
+}
+
+.section3-para1 {
+  margin: 2rem;
+  line-height: 1.3;
+  font-size: 1.1rem;
+}
+
+.part1,
+.part2,
+.part3,
+.part4,
+.part5 {
+  display: flex;
+  flex-direction: row;
+  margin: 0px 5rem;
+  /* column-gap: 10px; */
+}
+
+.part1-a:hover,
+.part1-b:hover,
+.part2-a:hover,
+.part2-b:hover,
+.part3-a:hover,
+.part3-b:hover,
+.part4-a:hover,
+.part4-b:hover,
+.part5-a:hover,
+.part5-b:hover {
+  box-shadow: 5px 7px 10px gray;
+  transition: ease-in-out, 1s;
+  border-radius: 20px;
+}
+
+.container{
+  width: 100%;
+  justify-content: center;
+}
+.part1-a {
+  display: flex;
+  width: 50%;
+}
+
+.part1-a-image {
+  height: 9rem;
+  margin-top: 2rem;
+  margin-right: 2rem;
+}
+
+.part1-b {
+  display: flex;
+  width: 50%;
+}
+
+.part1-b-image {
+  height: 9rem;
+  margin-top: 2rem;
+  margin-right: 2rem;
+
+}
+
+.part2-a {
+  display: flex; 
+   width: 50%;
+}
+
+.part2-a-image {
+  height: 9rem;
+  margin-top: 2rem;
+  margin-right: 2rem;
+}
+
+.part2-b {
+  display: flex;
+  /* padding-right: 5rem; */
+  width: 50%;
+}
+
+.part2-b-image {
+  height: 9rem;
+  margin-top: 2rem;
+  margin-right: 2rem;
+}
+
+.part3-a {
+  display: flex;
+  width: 50%;
+}
+
+.part3-a-image {
+  height: 9rem;
+  margin-top: 2rem;
+  margin-right: 2rem;
+}
+
+.part3-b {
+  display: flex;
+  /* padding-right: 5rem; */
+  width: 50%;
+}
+
+.part3-b-image {
+  height: 9rem;
+  margin-top: 2rem;
+  margin-right: 2rem;
+
+}
+
+.part4-a {
+  display: flex;
+  /* width: 152rem; */
+  width: 50%;
+}
+
+.part4-a-image {
+  height: 9rem;
+  margin-top: 2rem;
+  margin-right: 2rem;
+}
+
+.part4-b {
+  display: flex;
+  /* padding-right: 5rem; */
+  width: 50%;
+}
+
+.part4-b-image {
+  height: 9rem;
+  margin-top: 2rem;
+  margin-right: 2rem;
+}
+
+.part5-a {
+  display: flex;
+  /* width: 122rem; */
+  width: 50%;
+}
+
+.part5-a-image {
+  height: 9rem;
+  margin-top: 2rem;
+  margin-right: 2rem;
+}
+
+.part5-b {
+  display: flex;
+  /* padding-right: 5rem; */
+  width: 50%;
+}
+
+.part5-b-image {
+  height: 9rem;
+  margin-top: 2rem;
+  margin-right: 2rem;
+}
+
+.section4 {
+  margin: 0 2rem;
+  font-size: 1rem;
+  font-family: Cambria;
+}
+
+.footer-heading {
+  background-color: rgb(119, 178, 215);
+  height: 25rem;
+  margin-top: 3rem;
+  justify-items: center;
+  align-items: center;
+}
+
+.footer-heading-h1 {
+  padding: 3rem 0;
+  text-align: center;
+  font-size: 2.1rem;
+  height: 3rem;
+  width: 90rem;
+  color: white;
+  margin: 0rem 2rem;
+}
+
+.footer-heading-para {
+  margin: 0 20%;
+  font-size: 1.3rem;
+  color: white;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.footer-heading h2 {
+  text-align: center;
+  padding-top: 2rem;
+  font-size: 2rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.footer-heading .icons {
+  font-size: 2.5rem;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: row-reverse;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer-heading .icons a{
+color: black;
+padding-right: 6px;
+margin-right: 10px;
 }
