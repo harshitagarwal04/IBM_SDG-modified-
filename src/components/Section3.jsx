@@ -12,7 +12,7 @@ function Section3() {
                     <div className="part1-a">
                         <img className="part1-a-image" src="https://globalgoalscms.co.uk/wp-content/uploads/2021/09/globalgoals_5a8a02fb-62fa-4fc0-a7e5-3d5fd58b053e_goal_14.1_rgb_ng.svg" alt="img" />
                         <div className="part1-a-a">
-                            <h2> TARGET 14.1 : REDUCE MARINE POLUTION</h2>
+                            <h2> TARGET 14.1 : REDUCE MARINE POLLUTION</h2>
                             <p>By 2025, prevent and significantly reduce marine pollution of all kinds, in particular from land-based activities, including marine debris and nutrient pollution</p>
                         </div>
                     </div>
